@@ -4,4 +4,5 @@ function writeCards(array, eventName){
  for (var i = 0; i < array.length; i++) {
    retArray.push(`Thank you, ${array[i]}, for the wonderful ${eventName} gift.`)
  }
+ return retArray
 }
